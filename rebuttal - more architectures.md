@@ -243,7 +243,7 @@ The MLP contains five layers with the following number of neurons [120, 60, 30, 
    </td>
    <td>71.2
    </td>
-   <td>64.3* (165)
+   <td>64.4* (187)
    </td>
    <td>74.7
    </td>
@@ -259,7 +259,7 @@ The MLP contains five layers with the following number of neurons [120, 60, 30, 
    </td>
    <td>72.8
    </td>
-   <td>64.1* (112)
+   <td>64* (133)
    </td>
    <td>76.1
    </td>
@@ -275,7 +275,7 @@ The MLP contains five layers with the following number of neurons [120, 60, 30, 
    </td>
    <td>74.1
    </td>
-   <td>62.7* (91)
+   <td>62.8* (110)
    </td>
    <td>77
    </td>
@@ -291,7 +291,7 @@ The MLP contains five layers with the following number of neurons [120, 60, 30, 
    </td>
    <td>74.3
    </td>
-   <td>63* (80)
+   <td>63.2* (87)
    </td>
    <td>77.4
    </td>
@@ -588,7 +588,7 @@ The MLP contains five layers with the following number of neurons [120, 60, 30, 
    </td>
    <td>72.8
    </td>
-   <td>64.1* (112)
+   <td>64* (133)
    </td>
    <td>76.1
    </td>
@@ -858,7 +858,7 @@ For the ResNet-based architecture, we followed [How to Train Your ResNet 4: Arch
    </td>
    <td>70.3
    </td>
-   <td>64.8* (480)
+   <td>64.8
    </td>
    <td>73.1
    </td>
@@ -874,7 +874,7 @@ For the ResNet-based architecture, we followed [How to Train Your ResNet 4: Arch
    </td>
    <td>74
    </td>
-   <td>64.8* (252)
+   <td>64.8* (265)
    </td>
    <td>76.3
    </td>
@@ -890,7 +890,7 @@ For the ResNet-based architecture, we followed [How to Train Your ResNet 4: Arch
    </td>
    <td>75.6
    </td>
-   <td>65* (154)
+   <td>65.1* (166)
    </td>
    <td>77.4
    </td>
@@ -1139,7 +1139,7 @@ For the ResNet-based architecture, we followed [How to Train Your ResNet 4: Arch
    </td>
    <td>70.3
    </td>
-   <td>64.8* (480)
+   <td>64.8
    </td>
    <td>73.1
    </td>
