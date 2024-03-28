@@ -1,3 +1,10 @@
+# Results for more architectures
+We conducted another set of experiments with a fully connected network and a custom version of ResNet. The results are attached as tables, and the full figures will be added to the revised document. For each experiment, we trained 500 models. Some experiments are still running (marked with *), so the current number of models achieved is indicated in brackets. We conducted the experiments for 4, 16, and 24 samples.
+
+For increasing width, for both architectures and datasets, we can see that in G&C, there is slight/no overfitting and a consistent improvement in SGD, similar to the results of the LeNet architecture in Figure 3.
+
+For changing depth, we see that SGD and G&C have similar trends, the same behavior that was observed with the LeNet architecture, i.e., they are negatively affected by the increasing depth. The only exception is the classification of 3 vs 5 of MNIST for the ResNet architecture.
+
 ## MLP
 
 The MLP contains five layers with the following number of neurons [120, 60, 30, 12, 2]. Since we want the network to be over-parametrized but remain within a feasible number of parameters, we resized the input images by 2 with a max pooling layer, yielding a network with 101,768 parameters. When changing the depth, we use a network with a width of 2/6 and gradually remove the largest layer, as was done for the LeNet architecture.
