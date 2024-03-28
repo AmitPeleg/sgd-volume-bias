@@ -1,5 +1,7 @@
 ## MLP
 
+The MLP contains five layers with the following number of neurons [120, 60, 30, 12, 2]. Since we want the network to be over-parametrized but remain within a feasible number of parameters, we resized the input images by 2 with a max pooling layer, yielding a network with 101,768 parameters. When changing the depth, we use a network with a width of 2/6 and gradually remove the largest layer, as was done for the LeNet architecture.
+
 
 ### Increasing width 
 
@@ -596,6 +598,8 @@
 
 
 ## Resnet4
+
+For the ResNet-based architecture, we followed [How to Train Your ResNet 4: Architecture - Myrtle](https://myrtle.ai/learn/how-to-train-your-resnet-4-architecture/), which trains a custom ResNet architecture in 75 seconds with 94% accuracy. The specific implementation contains three layers, two consist residual blocks. The network contains a total of eight convolutional layers and one linear layer. We reduce the number of channels in each layer such that for width 1 and CIFAR10, the network contains 57,930 learnable parameters (similar to the LeNet).
 
 
 ### Increasing width
